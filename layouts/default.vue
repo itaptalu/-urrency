@@ -1,4 +1,6 @@
 <template>
-	<NuxtHeader />
-	<slot />
+	<div class="flex flex-col min-h-screen">
+		<NuxtHeader />
+		<slot />
+	</div>
 </template>

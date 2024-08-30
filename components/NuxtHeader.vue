@@ -14,14 +14,15 @@
 </template>
 
 <script setup lang="ts">
+const store = useExchangeRate();
 const currency = ref<string>('rub');
 const selectCurrency = (value: string) => {
-	localStorage.setItem('main-currency', value);
+	useExchangeRate().current = value;
 };
 
 onMounted(() => {
-	if (useMainCurrency()) {
-		currency.value = useMainCurrency()!;
+	if (store.current) {
+		currency.value = store.current;
 	}
 });
 </script>

@@ -5,13 +5,9 @@
 </template>
 
 <script setup lang="ts">
-const store = useCurrency();
+const store = useExchangeRate();
 
 onMounted(() => {
-	store.fetchCurrency();
-
-	if (!localStorage.getItem('main-currency')) {
-		localStorage.setItem('main-currency', 'rub');
-	}
+	store.fetchExchangeRate();
 });
 </script>
