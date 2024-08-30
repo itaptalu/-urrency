@@ -1,0 +1,4 @@
+<template>
+	<NuxtHeader />
+	<slot />
+</template>
