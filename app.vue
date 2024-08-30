@@ -1,3 +1,3 @@
 <template>
-	<div></div>
+	<div class="bg-slate-400">1</div>
 </template>
