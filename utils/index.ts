@@ -14,19 +14,4 @@ export const CURRENCY = [
 		name: 'Евро',
 		symbol: '€',
 	},
-	{
-		value: 'brl',
-		name: 'Реал',
-		symbol: 'R$',
-	},
-	{
-		value: 'kzt',
-		name: 'Тенге',
-		symbol: '₸',
-	},
-	{
-		value: 'idr',
-		name: 'Рупий',
-		symbol: 'Rp',
-	},
 ];
