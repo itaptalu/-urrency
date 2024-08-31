@@ -7,8 +7,8 @@
 			</div>
 		</client-only>
 		<nav class="flex gap-4">
-			<NuxtLink to="/">Главная</NuxtLink>
-			<NuxtLink to="/convert">Конвертация</NuxtLink>
+			<NuxtLink to="/" active-class="text-gray-400">Главная</NuxtLink>
+			<NuxtLink to="/convert" active-class="text-gray-400">Конвертация</NuxtLink>
 		</nav>
 	</header>
 </template>
